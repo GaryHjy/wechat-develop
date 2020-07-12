@@ -1,0 +1,20 @@
+{
+  "name": "wechat-develop",
+  "version": "1.0.0",
+  "description": "### 记录微信开发学习",
+  "main": "index.js",
+  "scripts": {
+    "ngrok": "./bin/ngrok http 8080"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GaryHjy/wechat-develop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GaryHjy/wechat-develop/issues"
+  },
+  "homepage": "https://github.com/GaryHjy/wechat-develop#readme"
+}
