@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon ./app.js NODE_ENV=123"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +13,8 @@
     "koa": "^2.13.0",
     "koa-router": "^9.1.0",
     "koa-static": "^5.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0"
   }
 }

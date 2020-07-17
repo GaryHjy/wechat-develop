@@ -2,6 +2,8 @@ const koa = require('koa');
 const Router = require('koa-router');
 const app = new koa();
 const router = new Router();
+const dotenv = require("dotenv");
+dotenv.config();
 
 router.get('/', ctx => {
   ctx.body = '成功'
